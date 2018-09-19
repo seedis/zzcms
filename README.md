@@ -1,6 +1,6 @@
 # zzcms 8.3 SQL injection
 ## CMS
-zzcms 8.3:http://www.zzcms.net/
+zzcms v8.3   http://www.zzcms.net/
 ## Vulnerability details
 position:  $ip parameter **/user/logincheck.php** in line 21 
 ![postion](https://github.com/seedis/zzcms/blob/master/1.png)
