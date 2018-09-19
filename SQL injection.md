@@ -1,3 +1,4 @@
+# ZZCMS SQL injection in  /user/jobmanage.php via bigclass parameter
 ## CMS version
 zzcms 8.3 Download link:http://www.zzcms.net/about/6.htm
 ## Vulnerability location
