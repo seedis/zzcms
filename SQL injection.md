@@ -6,6 +6,7 @@ By default, the ZZCMS framework performs security filtering on the $_GET request
 ![](https://github.com/seedis/zzcms/blob/master/image/5.png)
 But /user/jobmanage.php in line 42-47,the parameter **bigclass** comes from $_REQUEST function that can bypass ZZCMS security filtering lead to SQL injection.
 ![](https://github.com/seedis/zzcms/blob/master/image/3.png)
-
+## Vulnerability trigger condition
+Trigger the SQL injection vulnerability when a user logs in and visit the user/jobmanage.php
 ## POC
 ![](https://github.com/seedis/zzcms/blob/master/image/4.png)
